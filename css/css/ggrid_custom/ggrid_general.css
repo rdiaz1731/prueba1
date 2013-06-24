@@ -1,0 +1,322 @@
+@import url('slick-default-theme.css');
+
+#gisep-grid {
+  background: white;
+  outline: 0;
+}
+#content{
+    padding:0!important;
+    width:100% !important;
+}
+.slick-pager {
+  height: 26px;
+  border: none !important;
+  border-top: 0;
+  background: #CDCECE !important;
+  vertical-align: middle;
+}
+.ggrid-background{
+    width:100%;
+    background-color: #f2f2f2;
+}
+.slickgrid-container{
+    padding: 0 auto;
+    margin: auto;
+    width:960px;
+}
+.slickgrid-container input{
+    padding: 2px 2px 2px 5px;
+    border: #666 1px solid;
+    width: 150px;
+}
+.grid-header {
+  display:inline-block;
+  color:#FFF !important;
+  font-family: "Verdana", Sans-serif;
+  padding: 5px 20px 5px 5px;
+  font-weight:bold;
+  margin-top: 10px;
+  border: none !important;
+  background: url("../../images/tab-image.png") no-repeat #3D95B3 right top;
+}
+
+.grid-header label {
+  font-weight: bold;
+  margin: auto auto auto 6px;
+}
+
+.grid-header .ui-icon {
+  margin: 4px 4px auto 6px;
+  background-color: transparent;
+  border-color: transparent;
+}
+
+.options-panel {  
+  background: #F2F2F2;
+  margin: 0 auto;
+  width: 960px;
+}
+
+.ggrid-actions{
+    position: relative;
+    width: 100%;
+}
+
+.ggrid-title h3{
+    color:#3D95B3;
+}
+.ggrid-title{
+    display: inline-block;
+    font-size:15px;
+    padding: 20px 0px 20px 0px;
+    vertical-align: middle;
+    color:#94DBEC;
+    max-width: 150px;
+}
+.ui-icon{
+    display:block;
+}
+
+.ggrid-title h3{
+    vertical-align: middle;
+    margin: 0;
+    font-weight: bold;
+}
+.ggrid-primary-filter{
+    display: inline-block;
+    vertical-align: middle;
+    width: 200px;
+    margin-left:15px;
+}
+
+.ggrid-filter-background{
+    background: #666;
+}
+
+.ggrid-filter-panel{
+    background: #666;
+    display:none;
+    position:relative;
+    margin: 0 auto;
+    width:960px;
+}
+
+.ggrid-data-container{
+    padding: 0;
+}
+
+.ggrid-filter-item{
+    margin:2px 30px 10px 0px;
+    text-align:left;
+    width: 200px;
+    display: inline-block;
+    color:#FFF;
+}
+.ggrid-filter-item input,.ggrid-primary-filter input{
+    vertical-align: bottom;
+    height:20px;
+    margin-top:2px;
+    width:130px;
+    padding-right: 24px;
+}
+.ggrid-filter-item img,.ggrid-primary-filter img{
+    vertical-align: bottom;
+    border: none;
+    width:16px;
+    height:16px;
+    padding: 5px;
+    position:relative;
+    left: -26px;
+}
+
+.ggrid-buttons{
+    display: inline-block;
+    position: absolute;
+    right:0;
+    top:10%;
+    width:55%;
+    text-align: right;
+}
+
+
+
+.ggrid-buttons a:hover{
+    color: #FFF;
+}
+
+.ggrid-buttons a div{
+    display:table-cell;
+    vertical-align: middle;
+}
+
+.ggrid-buttons a div ~ div{
+    width:68%;
+    height:100%;
+    text-align: center;
+    font-weight:normal;
+}
+
+.ggrid-buttons a{
+    width:110px;
+    height:34px;
+    padding: 5px;
+    margin: 5px 0px 0px 5px;
+    vertical-align: middle;
+    font-size:13px;
+    display:inline-table;
+    border:none !important;
+    cursor:pointer;
+}
+
+.ggrid-buttons a img{
+    margin: 0 5px 0 0;
+    padding: 0;
+    width:24px;
+    height:24px;
+    vertical-align: middle;
+}
+
+#ggrid-filter-options{
+    cursor: pointer;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+/* Individual cell styles */
+.slick-cell.task-name {
+  font-weight: bold;
+  text-align: right;
+}
+
+.slick-header-column{
+    border-right: #FFF solid 1px;
+}
+
+.ggrid-cell-left{
+    text-align:left !important;
+    padding-left: 2px !important;
+}
+
+.ggrid-cell-right{
+    text-align:right !important;
+    padding-right: 2px !important;
+}
+
+.ggrid-cell-center{
+    text-align:center !important;
+}
+
+.slick-header-column:last-of-type{
+    border-right: none;
+}
+
+.slick-cell.selected {
+    color:#666;
+    background-color:#94DBEC;
+}
+
+.slick-cell.task-percent {
+  text-align: right;
+}
+
+.slick-cell.cell-move-handle {
+  font-weight: bold;
+  text-align: right;
+
+  background: #efefef;
+  cursor: move;
+}
+
+.slick-row.selected .cell-move-handle {
+  background: #D5DC8D;
+}
+
+.slick-row .cell-actions {
+  text-align: left;
+}
+
+.slick-row .slick-cell{
+    border-right: #666 1px solid;
+}
+
+.slick-row .slick-cell:last-of-type{
+    border-right: none;
+}
+
+.slick-row:hover{
+    background: #94DBEC;
+    color:#666;
+}
+
+.slick-row.complete {
+  background-color: #DFD;
+  color: #555;
+}
+
+.percent-complete-bar {
+  display: inline-block;
+  height: 6px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+}
+
+.control-boton {
+	background-color:#666666;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	display:inline-block;
+	color:#ffffff;
+	font-family:arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+}.control-boton:hover {
+	background-color:#3d96b3;
+}.control-boton:active {
+	position:relative;
+	top:1px;
+}
+/* This imageless css button was generated by CSSButtonGenerator.com */
+.busqueda-boton {
+	background-color:#3d96b3;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:none;
+	display:inline-table;
+	color:#ffffff;
+	font-family:arial;
+	font-weight:normal;
+	padding:4px 4px;
+	text-decoration:none;
+        width:90px;
+        height:32px;
+        position:relative;
+        left:-15px;
+        
+}.busqueda-boton:hover {
+	background-color:#58BCCC;
+        color:#ffffff;
+}.busqueda-boton:active {
+	position:relative;
+	top:1px;
+        color:#ffffff;
+}
+
+.busqueda-boton img {
+	width: 24px;
+        height: 20px;
+}
+/* This imageless css button was generated by CSSButtonGenerator.com */
+#ggrid-filter-options a div{
+    display:table-cell;
+    vertical-align: middle;
+}
+
+#ggrid-filter-options a div ~ div{
+    width:68%;
+    height:100%;
+    text-align: center;
+}

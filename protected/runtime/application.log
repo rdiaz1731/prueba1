@@ -1,0 +1,69 @@
+2013/06/22 16:26:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii".' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('gii')
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/prueba1/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/prueba1/index.php?r=gii
+---
+2013/06/22 16:26:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gui".' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('gui')
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/prueba1/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/prueba1/index.php?r=gui
+---
+2013/06/22 17:32:56 [error] [php] Function split() is deprecated (/Applications/XAMPP/xamppfiles/htdocs/yii/framework/gii/generators/crud/templates/luismi/controller.php:15)
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/gii/generators/crud/CrudCode.php(110): CrudCode->render()
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/gii/CCodeGenerator.php(162): CrudCode->prepare()
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/gii/CCodeGenerator.php(63): CrudGenerator->prepare()
+#3 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CInlineAction.php(49): CrudGenerator->actionIndex()
+#4 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(286): CrudGenerator->runAction()
+#6 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(265): CrudGenerator->runActionWithFilters()
+#7 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(282): CrudGenerator->run()
+#8 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#10 /Applications/XAMPP/xamppfiles/htdocs/prueba1/index.php(13): CWebApplication->run()
+REQUEST_URI=/prueba1/index.php?r=gii/crud
+in /Applications/XAMPP/xamppfiles/htdocs/prueba1/index.php (13)
+2013/06/22 17:43:55 [error] [php] Function split() is deprecated (/Applications/XAMPP/xamppfiles/htdocs/yii/framework/gii/generators/crud/templates/luismi/controller.php:15)
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/gii/generators/crud/CrudCode.php(110): CrudCode->render()
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/gii/CCodeGenerator.php(162): CrudCode->prepare()
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/gii/CCodeGenerator.php(63): CrudGenerator->prepare()
+#3 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CInlineAction.php(49): CrudGenerator->actionIndex()
+#4 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(286): CrudGenerator->runAction()
+#6 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(265): CrudGenerator->runActionWithFilters()
+#7 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(282): CrudGenerator->run()
+#8 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#10 /Applications/XAMPP/xamppfiles/htdocs/prueba1/index.php(13): CWebApplication->run()
+REQUEST_URI=/prueba1/index.php?r=gii/crud
+in /Applications/XAMPP/xamppfiles/htdocs/prueba1/index.php (13)
+2013/06/22 17:47:10 [error] [exception.CException] exception 'CException' with message 'Alias "ext.ggrid.GGrid" is invalid. Make sure it points to an existing PHP file and the file is readable.' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/YiiBase.php:316
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWidgetFactory.php(146): YiiBase::import('ext.ggrid.GGrid', true)
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(146): CWidgetFactory->createWidget(Object(UsuarioController), 'ext.ggrid.GGrid', Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(172): CBaseController->createWidget('ext.ggrid.GGrid', Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/prueba1/protected/views/usuario/index.php(70): CBaseController->widget('ext.ggrid.GGrid', Array)
+#4 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(126): require('/Applications/X...')
+#5 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/Applications/X...', NULL, true)
+#6 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(869): CBaseController->renderFile('/Applications/X...', NULL, true)
+#7 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(782): CController->renderPartial('index', NULL, true)
+#8 /Applications/XAMPP/xamppfiles/htdocs/prueba1/protected/controllers/UsuarioController.php(89): CController->render('index')
+#9 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CInlineAction.php(49): UsuarioController->actionIndex()
+#10 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#11 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#12 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('')
+#14 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('usuario')
+#15 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#16 /Applications/XAMPP/xamppfiles/htdocs/prueba1/index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/prueba1/index.php?r=usuario
+HTTP_REFERER=http://localhost/prueba1/index.php?r=gii/crud
+---
